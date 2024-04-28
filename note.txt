@@ -1,0 +1,24 @@
+ek nav bar hona chiya
+    gym ka nam 
+    right side may menu bar hona chiya
+        on click
+        -home
+        -about
+        -supliments
+        -drugs
+    nav black dark color
+    fixed
+
+page should start a quote  bold laters 
+    start pages will consist of a bold pic
+        pic wil be blured where hovered on quote & pic and a login page will be appeared
+
+5 equipment name likh n hai with expnation
+    -jab hover ho ga name par tho that equipment pic opacity should be 100%
+
+top rated trainer
+    expnation-left side
+    pic-right side
+
+footer
+

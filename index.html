@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mera baap k gym</title>
+    <link rel="stylesheet" href="style.css">
+    <a target="_blank" href="https://icons8.com/icon/wuri5ssWbXH4/pullups"></a> <a target="_blank"
+        href="https://icons8.com"></a>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="./icons8-pullups.gif" alt="">
+
+        <img class="menu" src="./text.png" alt="" ;>
+
+    </nav>
+    <main>
+        <div class="testing">“The secret of <br><br>getting ahead is <br><br> getting started.”<br><br>-sachin </div>
+        <div class="img_qoute">hi<img class="center_img" src="./anastase-maragos-IZw5zLHMfd4-unsplash.jpg" alt=""></div>
+    </main>
+    <h2>some nessesary equipment of gym</h2>
+    <main class="equipment">
+
+        <div class="bhga">Cardio Machines</div>
+        <div class="bhga">Treadmills</div>
+        <div class="bhga">Ellipatcals</div>
+        <div class="bhga">Stationary Bikes</div>
+        <div class="bhga">Rowing Machines</div>
+
+    </main>
+    <div class="images">
+        <img class="imageclass" src="./cardio-fitness-equipment.jpg" alt="" id="jsimage1">
+        <img class="imageclass" src="./lat-pulldown-9.webp" alt="" id="jsimage2">
+        <img class="imageclass" src="./shutterstock_627366494_1000x.webp" alt="" id="jsimage3">
+        <img class="imageclass" src="./traidmill.jpg" alt="" id="jsimage4">
+        <img class="imageclass"
+            src="./fitness-cardio-and-muscle-building-machines-equipments-set-at-gym-artworks-depict-a-list-of-exercise-workout-tools-machines-and-equipments-in-th-W28BW0.jpg"
+            alt="">
+    </div>
+
+
+    <script src="script.js"></script>
+    <script>
+        var divs = document.querySelectorAll(".bhga");
+        var images = document.querySelectorAll(".imageclass");
+
+        divs.forEach((div, index) => {
+            div.addEventListener('click', () => {
+                // Reset background color of all divs
+                divs.forEach(div => {
+                    div.style.backgroundColor = '';
+                });
+
+                // Change background color of clicked div
+                div.style.backgroundColor = 'rgba(25, 255, 255, 0.5)'; // Example color
+
+                // Hide all images
+                images.forEach(image => {
+                    image.style.opacity = 0;
+                });
+
+                // Show the corresponding image
+                images[index].style.opacity = 1;
+            });
+        });
+
+    </script>
+</body>
+
+</html>
