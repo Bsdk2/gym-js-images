@@ -3,7 +3,7 @@ for (let i = 0; i < call.length; i++) {
 
     call[i].addEventListener("click", (event) => {
 
-        event.target.style.color = '#0066ff'
+        event.target.style.color = 'white'
         event.target.style.borderRadius = "1rem"
 
     })
