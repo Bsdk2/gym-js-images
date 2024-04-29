@@ -48,7 +48,7 @@
         var images = document.querySelectorAll(".imageclass");
 
         divs.forEach((div, index) => {
-            div.addEventListener('click', () => {
+            div.addEventListener('mouseover', () => {
                 // Reset background color of all divs
                 divs.forEach(div => {
                     div.style.backgroundColor = '';
@@ -66,6 +66,16 @@
                 images[index].style.opacity = 1;
             });
         });
+        divs.forEach((div, index) => {
+            div.addEventListener('mouseout', () => {
+                // Reset background color of all divs
+                images.forEach(div => {
+                    div.style.opacity = 0;
+
+                });
+            });
+        });
+
 
     </script>
 </body>
